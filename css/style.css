@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+#txtArea{
+    margin-top: 50px;
+    position: relative;
+    left: 600px;
+}
+
+#container-btn{
+   display: block;
+   position: relative;
+   left: 600px;
+   
+    
+}
+
+#tudoCaps, #reset, #inicialCaps{
+    font-size: 15px;
+    background-color: #555;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+}
+#caracteres{
+    margin-top: 20px;
+
+}
+
+#result{
+    position: absolute;
+    left: 600px;
+    margin-top: 80px;
+}
+
+#copyBtn, #clean{
+    position: relative;
+    left: 600px;
+    top: 320px;
+    font-size: 15px;
+    background-color: #555;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+
+}
